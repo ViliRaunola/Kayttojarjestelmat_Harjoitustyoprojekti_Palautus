@@ -110,8 +110,6 @@ int main(int argc, char *argv[]){
                 continue;
             }
 
-            //Removing the newline character from the read line
-            line[strlen(line) - 1] = 0;
             
             //If parallel character "&" is found in the given input the program will determine how many of them were given and thus will know how many child processes to create
             if(strstr(line, "&")){
